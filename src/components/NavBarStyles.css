@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    background: linear-gradient(to right, #eee2dc, #edc7b7);
+}
+
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+/* applying css to just li elements */
+.nav-menu li {
+    padding: 0 1rem;
+    /* first applies to top and bottom, second to left and right  */
+}
+
+/* to target the routing links in the navbar, we can use the a tag as if html for css styling */
+.nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hamburger {
+    display:none;
+}
+
+/* initializing media queries to apply different styling for different pages*/
+@media screen and (max-width:1040px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: #edc7b7;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s; }
+        /* these few lines about position absolute and positioning is so that portfolio logo stays at top left */
+    
+/* this applies the styling for full screen so navbar still at top */
+
+/* this css styling is for when menu is active so we bring the navbar options back in  */
+.nav-menu.active{
+    left:0;
+}
+
+.nav-menu li {
+    padding: 1rem 0;
+}
+
+
+.nav-menu li a {
+    font-size: 2rem;
+}
+
+.hamburger {
+    display:initial;
+}
+}

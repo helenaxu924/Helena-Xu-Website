@@ -1,0 +1,47 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    height: 100%;
+}
+
+.about .right {
+    text-align: center;
+    flex: 2;
+    margin: auto;
+    padding: 1rem;
+}
+
+.about .right p{
+    margin: 1.2rem 1rem;
+}
+
+.about .left{
+    flex: 1;
+}
+
+.about .right h1{
+    padding: 0 2rem;
+}
+
+.left .img {
+    max-width: 100%;
+    border: 10px solid #edc7b7;
+    border-radius: 30px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.contact h1{
+    text-align: center;  
+
+}
+
+@media screen and (max-width: 740px) {
+    .about {
+        flex-direction: column;
+    }
+}
+/* how to make left side not have sm padding and how to make it responsive small screen */
+
+/* add all three into one row also how to only feature certain projects front page */
