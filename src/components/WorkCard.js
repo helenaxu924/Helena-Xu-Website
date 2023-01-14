@@ -16,5 +16,5 @@ const WorkCard = (props) => {
             </div>
   )
 }
-
+  
 export default WorkCard
