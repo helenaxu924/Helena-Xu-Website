@@ -1,3 +1,27 @@
+# Helena Xu Personal Website 
+
+Designed and created a personal website/portfolio showcasing projects and contact/about me info. Utilized React concepts such as creating card and hero image components, routing, hooks, states, and more. Hosted using Render: [Check it out!](https://helena-xu.onrender.com/)
+
+[Learn more about Render](https://render.com/)
+
+## Demo 
+
+Homepage:
+
+<img src="/Users/helenaxu/my-website/src/home.png" width="950" height="450"/>
+
+Projects page:
+
+<img src="/Users/helenaxu/my-website/src/projects.png" width="950" height="450"/>
+
+About/Contact me page:
+
+<img src="/Users/helenaxu/my-website/src/about.png" width="950" height="450"/>
+
+Responsive design: 
+
+<img src="/Users/helenaxu/my-website/src/responsive.png" width="450" height="650"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
