@@ -8,19 +8,19 @@ Designed and created a personal website/portfolio showcasing projects and contac
 
 Homepage:
 
-<img src="/Users/helenaxu/my-website/src/home.png" width="950" height="450"/>
+<img src="./src/home.png" width="950" height="450"/>
 
 Projects page:
 
-<img src="/Users/helenaxu/my-website/src/projects.png" width="950" height="450"/>
+<img src="./src/projects.png" width="950" height="450"/>
 
 About/Contact me page:
 
-<img src="/Users/helenaxu/my-website/src/about.png" width="950" height="450"/>
+<img src="./src/about.png" width="950" height="450"/>
 
 Responsive design: 
 
-<img src="/Users/helenaxu/my-website/src/responsive.png" width="450" height="650"/>
+<img src="./src/responsive.png" width="450" height="650"/>
 
 # Getting Started with Create React App
 
